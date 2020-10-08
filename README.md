@@ -2,6 +2,10 @@
 
 ## Topic: Language Detection
 
+
+
+### To run the script:
+
 Change direction to the folder ```language_detection```
 
 
@@ -18,7 +22,7 @@ pip3 install pycountry
 
 
 
-Then you can run the script by
+Then you can run the script with
 
 ```shell
 python3 main.py
@@ -28,7 +32,7 @@ and follow the given Instruction.
 
 
 
-If you have PyCharm, clone the project directly, open the file `main.py` and run. 
+If you have PyCharm, clone the project directly, open the file `main.py` and start it. 
 
 
 
