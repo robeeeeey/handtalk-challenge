@@ -18,6 +18,7 @@ Ideas:
 
 
 ## User Flow Diagram
+![User Task Diagram](https://github.com/robeeeeey/handtalk-challenge/blob/main/docs/diagram.svg)
 
 The idea of the system is that it will detect the language of the user's input. To leave the interaction you can type #exit.  
 
