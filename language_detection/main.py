@@ -16,10 +16,10 @@ def import_from_database(file, language):
 
 
 def main():
-    print("Welcome to language detection! I will detect your language.")
+    print("Welcome to language detection! I will detect your language.\n")
 
     while True:
-        user_input = input("\nPlease write a sentence or type >#exit< to leave\n")
+        user_input = input("Please write a sentence or type >#exit< to leave\n")
 
         if user_input == "#exit": sys.exit("Goodbye!")
         if len(user_input) < 3:

@@ -36,7 +36,7 @@ The method ```import_from_database(file, language)``` imports the given database
 
 
 
-The method `detect_language(user_input)` detects the language of the user's input. It is evaluated, if the input exists in the dictonary,which was imported and saved from the given databases before. If true, it returns the corresponding language. Otherwise the system will detect the the input's corresponding language with a library, called Textblob. Although the accuracy cannot be promised, especially in single words, and at least 3 characters are required. The result is returned in ISO Code (2-letter codes), and the aim is to make it readable. So that is why `pycountry` is used to translate into the language's full name.
+The method `detect_language(user_input)` detects the language of the user's input. It is evaluated, if the input exists in the dictonary, which was imported and saved from the given databases before. If true, it returns the corresponding language. Otherwise the system will detect the the input's corresponding language with a library, called Textblob. Although the accuracy cannot be promised, especially in single words, and at least 3 characters are required. The result is returned in ISO Code (2-letter codes), and the aim is to make it readable. So that is why `pycountry` is used to translate into the language's full name.
 
 
 
@@ -45,6 +45,8 @@ IDE: PyCharm (IntelliJ)
 
 
 ## Python Unit Tests
+
+```language_detection_test.py```
 
 ### Testcases:
 
